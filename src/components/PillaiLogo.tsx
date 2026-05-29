@@ -1,8 +1,8 @@
 import React from "react";
 // @ts-ignore
-import logoBlack from "/PillaiUnivLogo_BlackText.png";
+import logoBlack from "/images/PillaiUnivLogo_BlackText.png";
 // @ts-ignore
-import logoWhite from "/PillaiUnivLogo_OnlyPillaiLogoMark_WhiteText.png";
+import logoWhite from "/images/PillaiUnivLogo_OnlyPillaiLogoMark_WhiteText.png";
 
 interface PillaiLogoProps {
   className?: string;

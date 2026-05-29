@@ -1,8 +1,8 @@
 import React, { useRef, useEffect } from "react";
 import { Clock, BookOpen, Award, ArrowDown, Sparkles } from "lucide-react";
 import PillaiLogo from "./PillaiLogo";
-// @ts-ignore
-import panoramaBg from "../assets/images/PANO_20200719_160026_7.jpg";
+
+const panoramaBg = "/images/PANO_20200719_160026_7.jpg";
 
 interface HeroSectionProps {
   onExploreClick: () => void;
