@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@400;500;600;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --color-brand-maroon: #801818;
+  --color-brand-yellow: #f2be22;
+  
+  --font-sans: "Inter", system-ui, -apple-system, sans-serif;
+  --font-serif: "Space Grotesk", Georgia, serif;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    background-color: #fbfbfb;
+    color: #1a1a1a;
+  }
+}
+
+/* Beautiful Custom Animations for our VR UI and Map Pins */
+@keyframes pulseGlow {
+  0%, 100% {
+    transform: scale(1);
+    box-shadow: 0 0 0 0 rgba(242, 190, 34, 0.7);
+  }
+  50% {
+    transform: scale(1.08);
+    box-shadow: 0 0 15px 6px rgba(242, 190, 34, 0.4);
+  }
+}
+
+.hotspot-glowing {
+  animation: pulseGlow 1.8s infinite ease-in-out;
+}
+
+/* Scrollbars */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #801818;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #5a1010;
+}

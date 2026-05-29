@@ -1,0 +1,8 @@
+{
+  "name": "Remix: Remix: Pillai University Virtual Campus Tour",
+  "description": "Interactive 360-degree virtual reality (VR) tour of Mahatma Education Society\u0027s Pillai University campus areas, including engineering blocks and facilities.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
