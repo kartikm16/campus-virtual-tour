@@ -76,7 +76,14 @@ export default function VRModal({ area, isOpen, onClose, onNavigate }: VRModalPr
             <iframe 
               src="/makers-vr-tour/index.html" 
               className="w-full h-full border-none" 
-              title="VR Tour" 
+              title="Makers Studio VR Tour" 
+              allowFullScreen 
+            />
+          ) : area.id === "ev-lab" ? (
+            <iframe 
+              src="/ev-lab-vr/index.html" 
+              className="w-full h-full border-none" 
+              title="EV Lab VR Tour" 
               allowFullScreen 
             />
           ) : (

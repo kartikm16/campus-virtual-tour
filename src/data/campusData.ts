@@ -1,7 +1,7 @@
 import { CampusArea } from "../types";
 
 const makerSpacePanorama = "/images/maker_space_360_panorama_1779278754046.png";
-const evLabPanorama = "/images/PANO_20200719_160026_7.jpg";
+const evLabPanorama = "/images/ev-lab-projects.jpg";
 
 export const CAMPUS_AREAS: CampusArea[] = [
   {
