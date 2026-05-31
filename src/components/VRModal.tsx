@@ -74,7 +74,7 @@ export default function VRModal({ area, isOpen, onClose, onNavigate }: VRModalPr
         <div className="flex-1 relative min-h-0 bg-neutral-950">
           {area.id === "makers-studio" ? (
             <iframe 
-              src="/vr-tour/index.html" 
+              src="/makers-vr-tour/index.html" 
               className="w-full h-full border-none" 
               title="VR Tour" 
               allowFullScreen 
